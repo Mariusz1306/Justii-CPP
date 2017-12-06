@@ -9,6 +9,7 @@ stack::stack()
 {
 	this->top=0;
 	this->dane=(int *)malloc(ssize*sizeof(int));
+	assert(this->dane);
 }
 
 stack::~stack()
